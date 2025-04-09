@@ -1,9 +1,8 @@
 ﻿
 # **MEMORY**
-#### 'memory.h' is a Header File you can include in your `C/C++` projects to help manipulate memory. This module works in a fast and efficient way.
+### 'memory.h' is a Header File you can include in your `C/C++` projects to help manipulate memory. This module works in a fast and efficient way.
 ---
 ## `Class -> MemoryBlock`
-<<<<<<< HEAD
 #### The class `MemoryBlock` is a template class that allows you to store any type of data with any size; this is mainly used for storing large groups of data.
 ##### `T* m_Memory;`: Used to store the data in the block.
 ##### `unsigned int m_MemorySize;`: Used to specify how much data
@@ -13,14 +12,7 @@
 ##### `T& GetIndexedMemoryAddress(unsigned int index) const;`: Used to get the memory address of specific index in the memory block.
 ##### `void SetIndexedMemory(T data, unsigned int index);`: Used to set an individual index on the memory block.
 ##### `T& operator[](unsigned int index) const;`: Used to access the data using `memory[0]`.
-##### `void operator=(const char* string);`: Used to 
-=======
-#### `MemoryBlock` is a template class that allows you to store any type of data with any size; this is mainly used for storing large groups of data.
-##### `T* m_Memory;` used to store the data in the memory block.
-##### `unsigned int m_MemorySize;` used to specify how much data is in the memory block.
-##### `void clear();` is used to set the entire memory block to NULL; it does not call `delete[] m_Block;`
-##### `T& operator[](unsigned int index) const;` Allows you to access the data using `memory[0]`.
->>>>>>> f18b11604f5961deb8519552a7e4b88be6d2edfd
+##### `void operator=(const char* string);`: Used to Redefine the memory block.
 ---
 > Here at (c)Bitwise Studio, we are working to make this a better module.
 ---
