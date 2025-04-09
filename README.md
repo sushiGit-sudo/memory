@@ -1,6 +1,6 @@
 ﻿
 # **MEMORY**
-### 'memory.h' is a Header File you can include in your `C/C++` projects to help manipulate memory. This module works in a fast and efficient way.
+#### 'memory.h' is a Header File you can include in your `C/C++` projects to help manipulate memory. This module works in a fast and efficient way.
 ---
 ## `Class -> MemoryBlock`
 #### `MemoryBlock` is a template class that allows you to store any type of data with any size; this is mainly used for storing large groups of data.
