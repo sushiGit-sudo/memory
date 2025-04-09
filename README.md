@@ -4,12 +4,12 @@
 ---
 ## `Class -> MemoryBlock`
 #### `MemoryBlock` is a template class that allows you to store any type of data with any size; this is mainly used for storing large groups of data.
-##### `T* m_Memory;` used to store the data in the block.
-##### `unsigned int m_MemorySize;` used to specify how much data
-##### `void clear();` is used to set the entire **MemoryBlock** to NULL; it does not call `delete[] m_Block;`
+##### `T* m_Memory;` used to store the data in the memory block.
+##### `unsigned int m_MemorySize;` used to specify how much data is in the memory block.
+##### `void clear();` is used to set the entire memory block to NULL; it does not call `delete[] m_Block;`
 ##### `T& operator[](unsigned int index) const;` Allows you to access the data using `memory[0]`.
 ---
-> Us here at (c)Bitwise Studio are working to make this a better module.
+> Here at (c)Bitwise Studio, we are working to make this a better module.
 ---
 > [Github](https://github.com/sushiGit-sudo)
 >> Copyright (c) 2025 'Bitwise Studio'
