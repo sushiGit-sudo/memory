@@ -1,6 +1,6 @@
 ﻿
 # **MEMORY**
-### 'memory.h' is a Header File you can include in your `C/C++` projects to help manipulate memory. This module works in a fast and efficient way.
+### 'memory.h' is a header file you can include in your `C/C++` projects to help manipulate memory. This module works in a fast and efficient way.
 ---
 ## `Class -> MemoryBlock`
 #### The class `MemoryBlock` is a template class that allows you to store any type of data with any size; this is mainly used for storing large groups of data.
@@ -13,9 +13,10 @@
 ##### `void SetIndexedMemory(T data, unsigned int index);`: Used to set an individual index on the memory block.
 ##### `T& operator[](unsigned int index) const;`: Used to access the data using `memory[0]`.
 ##### `void operator=(const char* string);`: Used to Redefine the memory block.
----
-> Here at (c)Bitwise Studio, we are working to make this a better module.
+###### can be found in `src/includes/memory_block.h`
 ---
 > [Github](https://github.com/sushiGit-sudo)
 >> Copyright (c) 2025 'Bitwise Studio'
  Licensed under the Apache 2.0 License. See LICENSE file in the project root for full license information.
+
+###### (c)Bitwise Studio, uses Visual Studio to program. We are currently working on ways to use linux. We are working to make this a better module.
